@@ -10,6 +10,7 @@ import 'expand_three.dart';
 import 'expand_two.dart';
 import 'home.dart';
 
+var ScaffoldKey = GlobalKey<ScaffoldState>();
 class TabBarScreen extends StatefulWidget {
   TabBarScreen({super.key});
 

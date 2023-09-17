@@ -57,4 +57,6 @@ class IconAssets {
   static const String home = '$ICON_PATH/home.svg';
   static const String pen = '$ICON_PATH/pen.svg';
   static const String book = '$ICON_PATH/book.svg';
+  static const String home2 = '$ICON_PATH/Icon awesome-home.svg';
+  static const String phone = '$ICON_PATH/Icon awesome-phone-alt.svg';
 }

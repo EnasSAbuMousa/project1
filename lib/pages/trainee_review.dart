@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:project_structuer/resources/assets_manager.dart';
 import 'package:project_structuer/resources/color_manager.dart';
-
 import 'drawerr.dart';
 import 'home.dart';
 
+var ScaffoldKey = GlobalKey<ScaffoldState>();
 class traineeReview extends StatefulWidget {
   const traineeReview({super.key});
 

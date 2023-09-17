@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:project_structuer/resources/color_manager.dart';
-import 'package:project_structuer/screen_one.dart';
-import 'package:project_structuer/tab_bar.dart';
 import 'center_review.dart';
 import 'feedback.dart';
 import 'trainee_review.dart';

@@ -7,6 +7,8 @@ import 'package:project_structuer/resources/color_manager.dart';
 
 import 'drawerr.dart';
 import 'home.dart';
+var ScaffoldKey = GlobalKey<ScaffoldState>();
+var FormKey = GlobalKey<ScaffoldState>();
 
 class feedbacck extends StatefulWidget {
   const feedbacck({super.key});
@@ -136,6 +138,7 @@ class _feedbacckState extends State<feedbacck> {
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),
                                       child: TextField(
+                                        key: FormKey,
                                         maxLines: null,
                                         expands: true,
                                         cursorColor: ColorManager.primaryy,
